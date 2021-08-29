@@ -10,9 +10,8 @@ body {
 
 }
 .logo {
-  margin: 20px;
 }
-/*top.esstra-logo*/
+/*top.esstra-ロゴ*/
 .img-estra {
 
 }
@@ -28,19 +27,18 @@ body {
 .header-nav-item {
   font-size: 20px;
   padding: 10px;
-
 }
-
+/*top.main*/
 .main {
   position: relative;
-
 }
-/*main画像*/
+/*main画像右配置*/
 .main-img {
   width: 100%;
   text-align: right;
-  display: block;
-
+}
+img {
+  width: 70%;
 }
 /*main文章　commit to the*/
 .main-title {
@@ -74,20 +72,25 @@ span {
 
 .category-tag {
   font-family: 'Indie Flower', cursive;
-  position: relative;
   left: 100px;
 }
 .title {
-  position: relative;
   left: 100px;
 }
+
 /*top.news*/
 .news {
   position: relative;
 }
+.news p {
+
+}
 .news-item {
   border-top: 3px solid #ddd;
   border-bottom: 3px solid #ddd;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
 }
 
 .news-info dl {
@@ -124,14 +127,18 @@ span {
   background: #F5F5F5;
   height: 400px;
   position: relative;
+  padding-top: 20px;
+
 }
 .category-tag-about {
+  color: #C71585;
 
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
 .about-tag-title {
   text-align: center;
+  color: #808080;
 }
 
 .card-lave img {
@@ -141,25 +148,45 @@ span {
   padding-right: 150px;
   padding-top: 10px;
 }
+/*about文章*/
 .abut-tag-title-acticl {
   font-size: 14px;
-  position: absolute;
+  line-height: 24px;
   left: 180px;
-
+  position: absolute;
+  color: #808080;
 }
 
 /*top.service*/
 .service {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
 
 }
 
 .servis-card {
-
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 /*service画像*/
-.card-img {
+.card-img-1 {
+  background: #C71585;
+  grid-column: 1/3;
+  grid-row: 2/3;
+
+
+}
+.card-img-2 {
+  background: #FF69B4;
+  grid-column: 2/3;
+  grid-row: 1/2;
+
+}
+.card-img-3 {
+ background: #DB7093;
+ grid-column: 2/3;
+ grid-row: 1/2;
 
 }
 
@@ -182,10 +209,14 @@ span {
 
 }
 .card-content {
+  position: absolute;
 
 }
 .card-cat {
 
+}
+.card-cat-1 {
+  padding: 30px
 }
 .card-content {
 
@@ -276,12 +307,12 @@ span {
 }
 
 .company {
+  width: 100%;
 
 }
 .table {
   width: 60%;
   border-collapse: collapse;
-
 }
 .table th,
 .table td {
@@ -291,30 +322,32 @@ span {
 .table th {
   font-weight: bold;
   background-color: #dedede;
-  text-align: left;
+  text-align: center;
 }
 /*end.company*/
 
 .mv{
-  position: relative;
-  background: url(../img/interview.png) no-repeat center/cover;
-  height: 100vh;
-  width: 100vw;
-
+  background: url(../img/recruit.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  min-height: 100vh;
+  width: 100vh;
+}
 .mv-2{
+  background: url(../img/interview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  min-height: 100vh;
+  width: 100vh;
 }
 .title-1{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 64px;
-  color: #fff;
+  
 }
+p {
 
-
-株式会社estraへのお問い合わせはこちらから
-
+}
   
 input type="submit" class="form-btn" value="お問い合わせ" />
  
