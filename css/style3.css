@@ -171,6 +171,7 @@ span {
   display: grid;
   grid-template-rows: 200px 200px;
   grid-template-columns: 1fr 1fr;
+
 }
 /*service画像*/
 .card-img-1 img {
@@ -183,7 +184,6 @@ span {
   width:  30%;
   padding: 10px;
   position: relative;
-  
 }
 .card-img-3 img  {
   width:  30%;
@@ -214,6 +214,7 @@ span {
 
 .card-content {
 width: 100%;
+
 }
 /*教育事業*/
 .card-cat {
@@ -221,7 +222,13 @@ color: #fff;
 font-weight: bold;
 text-align: center;
 }
+
+.card-card {
+  display: flex;
+  justify-content: space-around;
+}
 .card-cat:nth-child(2) {
+  display: block;
 }
 
 /*サンプルテキストがここに入ります*/
@@ -315,7 +322,7 @@ text-align: center;
   justify-content: center;
   padding: 10px 0;
   text-align: center;
-  display: block;
+  margin: 0 auto;
 
 }
 .table {
@@ -373,10 +380,25 @@ text-align: center;
   top: 120px;
   right: 200px;
 }
-
+/* 株式会社estraお問い合わせ　 */
 .text {
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center;
+  width: 100%;
+}
 
+.form-btn {
+  border-radius: 30px;
+  margin: 32px auto 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  background: #C71585;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
 }
 
