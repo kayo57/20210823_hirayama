@@ -1,7 +1,7 @@
 /* 以下の内容を追加します */
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 .header {
@@ -169,7 +169,7 @@ span {
 }
 .servis-card {
   display: grid;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 150px 150px;
   grid-template-columns: 1fr 1fr;
 
 }
@@ -177,17 +177,15 @@ span {
 .card-img-1 img {
   width: 30%;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   position: relative;
 }
 .card-img-2 img {
   width:  30%;
-  padding: 10px;
   position: relative;
 }
 .card-img-3 img  {
-  width:  30%;
-  padding: 10px;
+  width: 30%;
   position: relative;
 
 }
@@ -195,26 +193,21 @@ span {
   background: #C71585;
   grid-column: 1/2;
   grid-row: 1/3;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 .card-img-2 {
   background: #FF69B4;
   grid-column: 2/3;
   grid-row: 1/2;
-  padding: 20px;
+  padding: 10px;
 
 }
 .card-img-3 {
   background: #DB7093;
   grid-column: 2/3;
   grid-row: 2/3;
-  padding: 20px;
-}
-
-.card-content {
-width: 100%;
-
+  padding: 10px;
 }
 /*教育事業*/
 .card-cat {
@@ -222,19 +215,19 @@ color: #fff;
 font-weight: bold;
 text-align: center;
 }
-
 .card-card {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.card-cat:nth-child(2) {
-  display: block;
+.card-cat-1 {
+  text-align: left;
+  color: #fff;
 }
-
 /*サンプルテキストがここに入ります*/
 .card-content {
   color: #fff;
   font-size: 14px;
+  line-height: 1.5em;
 }
 /*end.servis*/
 
@@ -243,25 +236,18 @@ text-align: center;
 .blog {
   background: #F5F5F5;
   height: 600px;
-  padding: 30px 0;
-
   
-
+  display: flex;
+  justify-content: space-between;
 }
 .blog-card {
   width: 300px;
-  margin: 0 auto;
   display: inline-block;
-  background: #dedede;
-  
-
 }
 /*ブログ画像*/
 .blog-img img {
   width: 100%;
   border-radius: 20px 20px 0 0;
-
-  
 }
 /*親要素*/
 .blog-content {
@@ -273,11 +259,13 @@ text-align: center;
 .blog-card-cat {
   font-size: 18px;
   padding: 5px 10px;
-  margin: 0px;
+  margin: 0px　auto;
   color: #fff;
   background: #C71585;
   width: 50px;
   border-radius: 20px 0 0 0;
+  position: absolute;
+  top: 2000px;
 }
 /*文章ープログラミング学習の~*/
 .blog-card-ttl {
@@ -287,20 +275,18 @@ text-align: center;
   font-size: 14px;
   text-align: center;
   display: inline-flex;
-
 }
 /*2021/01/01*/
 .card-date {
   padding-right: 20px;
   color: #808080;
-
 }
 /*COACHTECH*/
 .card-tag {
   padding-left: 50px;
   color: #808080;
-
 }
+
 /*一覧ページへ*/
 .form-btn {
   color: #C71585;
@@ -309,12 +295,15 @@ text-align: center;
   width: 200px;
   height: 60px;
   border-radius: 30px;
-  display: block;
-  margin: 30px 0;
+  margin: 20px;
   font-size: 18px;
-  
-  
+  text-align: center;
+  display: block;
 }
+
+.form {
+}
+
 
 .company {
   width: 100%;
