@@ -3,7 +3,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: ;
 }
 
 .header {
@@ -17,8 +16,9 @@ body {
 .img-estra {
   width: 30%;
 }
-.header-nav {
-
+a {
+  text-decoration: none;
+  color: #808080;
 }
 .header-nav-list {
   list-style-type: none;
@@ -365,7 +365,9 @@ text-align: center;
   background-position: left;
   min-height: 300px;
   width: 100vh;
+  position: relative;
 }
+
 .mv-2 {
   background: url(../img/interview.png);
   background-repeat: no-repeat;
@@ -373,22 +375,26 @@ text-align: center;
   background-position: right;
   min-height: 300px;
   width: 100vh;
+  position: relative;
 }
 /*採用情報*/
 .title-1 {
   font-size: 30px;
   color: #fff;
   position: absolute;
-  top: 120px;
-  left: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 /*社員インタビュー*/
 .title-2 {
   font-size: 30px;
   color: #fff;
   position: absolute;
-  top: 120px;
-  right: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* 株式会社estraお問い合わせ　 */
 .text {
@@ -399,11 +405,10 @@ text-align: center;
 }
 
 .border {
-  margin-left: 550px;
+  margin-left: 50%;
   width: 1px;
   height: 40px;
   background-color: #C71585;
-  display: block;
 }
 
 
