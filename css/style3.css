@@ -2,20 +2,21 @@
 
 body {
   margin: 0;
+  padding: 0;
+  font-size: ;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-
+  width: 100%;
 }
 .logo {
 }
 /*top.esstra-ロゴ*/
 .img-estra {
-
+  width: 30%;
 }
-
 .header-nav {
 
 }
@@ -73,31 +74,28 @@ span {
 .category-tag {
   font-family: 'Indie Flower', cursive;
   color: #C71585;
-  margin-left: 250px;
-
-
+  margin-left: 110px;
+  margin-top: 100px;
 }
 .title {
   color: #808080;
-  margin-left: 250px;
+  margin-left: 110px;
 }
 
 /*top.news*/
 .news {
   position: relative;
-  padding-top: 100px;
-}
-.news p {
-
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 550px;
 }
 .news-item {
   border-top: 3px solid #ddd;
   border-bottom: 3px solid #ddd;
   display: flex;
   justify-content: center;
-  margin: 50px;
+  margin-bottom: 50px;
 }
-
 .news-info dl {
   display: flex;
   flex-wrap: wrap;
@@ -105,27 +103,16 @@ span {
   color: #808080;
   border-bottom: 1px solid #ddd;
   padding: 15px 0;
-
 }
 .news-tag {
   background: #C71585;
-  border-radius: 20px;
-  width: 200px;
+  border-radius: 200px;
+  width: 100px;
   color: #fff;
   font-size: 14px;
   padding: 5px 10px;
 }
-.news-info dl:nth-child(5) {
-}
-
-.news-info dt {
-}
-.news-info dd {
-
-}
 /*end.news*/
-
-
 
 
 .about {
@@ -137,7 +124,6 @@ span {
 }
 .category-tag-about {
   color: #C71585;
-
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
@@ -154,7 +140,7 @@ span {
   padding-top: 10px;
 }
 /*about文章*/
-.abut-tag-title-acticl {
+.about-tag-title-acticl {
   font-size: 14px;
   line-height: 24px;
   left: 180px;
@@ -175,17 +161,16 @@ span {
 }
 /*service画像*/
 .card-img-1 img {
-  width: 30%;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  width: 25%;
+  padding-top: 10px;
   position: relative;
 }
 .card-img-2 img {
-  width:  30%;
+  width:  25%;
   position: relative;
 }
 .card-img-3 img  {
-  width: 30%;
+  width: 25%;
   position: relative;
 
 }
@@ -218,6 +203,7 @@ text-align: center;
 .card-card {
   display: flex;
   justify-content: space-between;
+  text-align: left;
 }
 .card-cat-1 {
   text-align: left;
@@ -236,9 +222,24 @@ text-align: center;
 .blog {
   background: #F5F5F5;
   height: 600px;
-  
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.category-tag-blog {
+  font-family: 'Indie Flower', cursive;
+  color: #C71585;
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+
+.title-blog {
+  color: #808080;
+  left: 50px;
+  top: 100px;
+  position: relative;
+
 }
 .blog-card {
   width: 300px;
@@ -248,10 +249,12 @@ text-align: center;
 .blog-img img {
   width: 100%;
   border-radius: 20px 20px 0 0;
+  margin-top: 20px;
 }
 /*親要素*/
 .blog-content {
   background: #fff;
+  height: 150px;
   border-radius: 0 0 20px 20px;
   padding: 15px;
 }
@@ -264,12 +267,17 @@ text-align: center;
   background: #C71585;
   width: 50px;
   border-radius: 20px 0 0 0;
-  position: absolute;
-  top: 2000px;
+  position: relative;
+  bottom: 235px;
+  right: 15px;
 }
 /*文章ープログラミング学習の~*/
 .blog-card-ttl {
-  font-size: 20px;
+  font-size: 18px;
+  position: relative;
+  bottom: 50px;
+  color: #808080;
+  line-height: 1.5em;
 }
 .tag {
   font-size: 14px;
@@ -280,31 +288,45 @@ text-align: center;
 .card-date {
   padding-right: 20px;
   color: #808080;
+  position: relative;
+  bottom: 20px;
 }
 /*COACHTECH*/
 .card-tag {
   padding-left: 50px;
   color: #808080;
+  position: relative;
+  bottom: 20px;
 }
 
 /*一覧ページへ*/
-.form-btn {
-  color: #C71585;
-  border-color: #C71585;
-  background: #fff;
+.btn {
   width: 200px;
-  height: 60px;
-  border-radius: 30px;
-  margin: 20px;
-  font-size: 18px;
+  padding: 20px 0;
+  color: #C71585;
+  background: #fff;
   text-align: center;
-  display: block;
+  margin:100px auto 0;
+  border-style: solid;
+  border-radius: 30px;
+  display:block;
+  position: relative;
+  top: -220px;
 }
 
-.form {
+.category-tag-company {
+  font-family: 'Indie Flower', cursive;
+  color: #C71585;
+  margin-left: 230px;
+  margin-top: 30px;
+  position: relative;
+
 }
+.title-comany {
+  color: #808080;
+  margin-left: 230px;
 
-
+}
 .company {
   width: 100%;
   display: flex;
@@ -312,7 +334,6 @@ text-align: center;
   padding: 10px 0;
   text-align: center;
   margin: 0 auto;
-
 }
 .table {
   width: 60%;
@@ -374,20 +395,39 @@ text-align: center;
   padding-top: 50px;
   text-align: center;
   width: 100%;
+  display: block;
 }
+
+.border {
+  margin-left: 550px;
+  width: 1px;
+  height: 40px;
+  background-color: #C71585;
+  display: block;
+}
+
+
 
 .form-btn {
   border-radius: 30px;
-  margin: 32px auto 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 280px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 200px;
   display: block;
   background: #C71585;
   color: #fff;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 14px;
   border: none;
   cursor: pointer;
+  box-shadow: 0 5px 0 #752354;
+  display: flex;
+  justify-content:space-around;
 }
+.form-btn img {
+  width: 15%;
+}
+.wrap {
+  overflow: hidden;
+}
+
 
